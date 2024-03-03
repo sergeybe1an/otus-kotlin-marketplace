@@ -8,7 +8,6 @@ pluginManagement {
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
-rootProject.name = "ok-marketplace-202312"
+rootProject.name = "otus-webchat"
 
-includeBuild("lessons")
-includeBuild("ok-marketplace-be")
+includeBuild("otus-webchat-main")
