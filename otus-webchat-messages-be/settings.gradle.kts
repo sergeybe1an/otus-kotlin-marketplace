@@ -1,4 +1,4 @@
-rootProject.name = "otus-webchat-main"
+rootProject.name = "otus-webchat-messages-be"
 
 dependencyResolutionManagement {
     versionCatalogs {

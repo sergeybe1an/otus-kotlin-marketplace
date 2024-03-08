@@ -45,4 +45,4 @@ CRUD (create, read, update, delete, search)
 
 #### Endpoints
 
-WS (create, read)
+WS (create, read, update, delete)

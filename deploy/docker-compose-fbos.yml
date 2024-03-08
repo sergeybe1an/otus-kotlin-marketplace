@@ -44,7 +44,7 @@ services:
 
   opensearch:
     container_name: opensearch
-    image: opensearchproject/opensearch:latest
+    image: opensearchproject/opensearch:2.8.0
     environment:
       - discovery.type=single-node
       - http.port=9200

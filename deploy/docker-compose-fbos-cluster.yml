@@ -43,7 +43,7 @@ services:
       - ./volumes/fluent-bit-etc/parsers.conf:/fluent-bit/etc/parsers.conf
 
   opensearch:
-    image: opensearchproject/opensearch:latest
+    image: opensearchproject/opensearch:2.8.0
     environment:
       - cluster.name=opensearch-cluster # Name the cluster
       - node.name=opensearch # Name the node that will run in this container
@@ -65,7 +65,7 @@ services:
       - opensearch-data1:/usr/share/opensearch/data
 
   opensearch2:
-    image: opensearchproject/opensearch:latest
+    image: opensearchproject/opensearch:2.8.0
     environment:
       - cluster.name=opensearch-cluster
       - node.name=opensearch2
